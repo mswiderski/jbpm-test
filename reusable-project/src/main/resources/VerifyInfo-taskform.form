@@ -1,0 +1,29 @@
+
+<form id="1906889558">
+<property name="subject" value=""/>
+<property name="name" value="VerifyInfo-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="person_age" type="InputTextInteger" id="436341828">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (person)quot;"/>
+<property name="inputBinding" value="person_in/age"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="person_name" type="InputText" id="1873016359">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (person)quot;"/>
+<property name="inputBinding" value="person_in/name"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="person_adult" type="CheckBox" id="78746122">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;adult (person)quot;"/>
+<property name="inputBinding" value="person_in/adult"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="person_in" name="#0000A0" type="dataModelerEntry" value="org.jbpm.test.Person" id="person"/>
+</form>

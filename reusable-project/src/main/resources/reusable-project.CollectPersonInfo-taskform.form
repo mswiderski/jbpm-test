@@ -1,8 +1,0 @@
-
-<form id="1826305211">
-<property name="subject" value=""/>
-<property name="name" value="reusable-project.CollectPersonInfo-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="person" value="org.jbpm.test.Person" id="person"/>
-</form>

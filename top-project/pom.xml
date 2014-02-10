@@ -7,6 +7,13 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>top-project</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.jbpm.test</groupId>
+      <artifactId>reusable-project</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>

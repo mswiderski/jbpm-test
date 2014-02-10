@@ -1,0 +1,29 @@
+
+<form id="153843652">
+<property name="subject" value=""/>
+<property name="name" value="reusable-project.CollectPersonInfo-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="person_age" type="InputTextInteger" id="446670152">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (person)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="person/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="person_name" type="InputText" id="1954944998">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (person)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="person/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="person_adult" type="CheckBox" id="1352721485">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;adult (person)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="person/adult"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder name="#0000A0" type="dataModelerEntry" outId="person" value="org.jbpm.test.Person" id="person"/>
+</form>

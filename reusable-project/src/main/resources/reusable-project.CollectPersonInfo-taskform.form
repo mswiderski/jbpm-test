@@ -4,26 +4,21 @@
 <property name="name" value="reusable-project.CollectPersonInfo-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="person_age" type="InputTextInteger" id="446670152">
+<field position="0" name=":decorator_0" type="HTMLLabel" id="103404146">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;age (person)quot;"/>
+<property name="label" value=""/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="person/age"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;We are about to collect some personal information about you :)&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="2" name="person_name" type="InputText" id="1954944998">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (person)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="person/name"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="person_adult" type="CheckBox" id="1352721485">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;adult (person)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="person/adult"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<dataHolder name="#0000A0" type="dataModelerEntry" outId="person" value="org.jbpm.test.Person" id="person"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="person" value="org.jbpm.test.Person" id="person"/>
 </form>
